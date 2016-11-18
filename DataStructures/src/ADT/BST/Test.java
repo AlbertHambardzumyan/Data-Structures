@@ -41,6 +41,15 @@ public class Test {
         System.out.println("\nADT.BST postorder... should be 10, 25, 20, 40, 60, 50, 30");
         bst.postorder();
 
+        System.out.println("\n\nADT.BST Delete... 30");
+        bst.delete(30);
+        System.out.println("ADT.BST inorder... should be 10, 20, 25, 40, 50, 60");
+        bst.inorder();
+        System.out.println("\n\nADT.BST Delete... 30");
+        bst.delete(30);
+        System.out.println("ADT.BST inorder... should be 10, 20, 25, 40, 50, 60");
+        bst.inorder();
+
         System.out.println("\n\nRead from array...");
         int[] array = {5, 10, 20, 25, 30, 40, 50, 60};
         BST bst_2 = new BST();
